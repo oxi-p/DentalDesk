@@ -56,8 +56,8 @@ Follow these instructions to get a local copy of DentalDesk up and running.
 
 1.  **Clone the repository:**
     ```sh
-    git clone <your-repo-url>
-    cd wapi_scheduler
+    git clone git@github.com:oxi-p/DentalDesk.git
+    cd DentalDesk
     ```
 
 2.  **Install dependencies and sync the environment:**
