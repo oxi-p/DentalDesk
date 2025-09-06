@@ -1,0 +1,26 @@
+[project]
+name = "dental-desk"
+version = "0.1.0"
+description = "A conversational AI assistant over WhatsApp for dental practices"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "langchain-mcp-adapters>=0.1.9",
+    "langchain[openai]>=0.3.27",
+    "langgraph>=0.6.6",
+    "mcp>=1.13.1",
+    "openai>=1.99.9",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "uvicorn>=0.35.0",
+]
+
+[project.scripts]
+dentaldesk-mcp = "dentaldesk_mcp.server:main"
+server = "app.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
