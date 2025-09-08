@@ -2,7 +2,7 @@
 
 A conversational AI assistant for dental practices, powered by LangGraph and WhatsApp.
 
-DentalDesk is an open-source project designed to automate patient communication for dental clinics. It provides a WhatsApp-based chatbot that can handle appointment scheduling, new patient registration, and answer frequently asked questions, freeing up staff to focus on providing excellent patient care.
+DentalDesk is a free and open-source AI chatbot that acts as a virtual dental assistant for your clinic. It automates patient communication on WhatsApp, handling appointment scheduling, new patient registration, and answering FAQs 24/7, freeing up your staff to focus on patient care.
 
 ## ✨ Key Features
 
